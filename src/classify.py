@@ -20,3 +20,4 @@ if __name__ == "__main__":
     image_path = "data/processed/example.jpg"
     class_id = classify_image(image_path, model)
     print(f"Classified image as class ID: {class_id}")
+    print("Thank you")
